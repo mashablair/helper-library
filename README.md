@@ -11,13 +11,26 @@ Vanilla JS scripts that help users to accomplish simple day-to-day operations, s
 * Remove a class from all elements in an array.
 
 ## Example of Use
-
+You can use the library like this (try it in the console of the demo page)
+:
 ```
-// get all matching elements and turn them into array of nodes:
-var buttons = helper.getAllElems('button');
+// _.toArray()
+var arr = _.toArray(document.querySelectorAll("button"));
+console.log("_.toArray()", arr);
 
-// remove a specific class from all those elements:
-helper.removeClass('btn-blue', buttons);
+// _.get()
+var btn = _.get("#button-2");
+console.log("_.get()", btn);
+
+// _.get()
+var btns = _.getAll("button");
+console.log("_.getAll()", btns);
+
+// _.addClass()
+_.addClass(btns, "btn-purple");
+
+// _.removeClass()
+_.removeClass(btns, "btn-blue");
 ```
 
 ## Why
