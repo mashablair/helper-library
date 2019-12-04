@@ -15,6 +15,7 @@ Vanilla JS scripts that help users to accomplish simple day-to-day operations, s
 ```
 // get all matching elements and turn them into array of nodes:
 var buttons = helper.getAllElems('button');
+
 // remove a specific class from all those elements:
 helper.removeClass('btn-blue', buttons);
 ```
@@ -23,6 +24,8 @@ helper.removeClass('btn-blue', buttons);
 
 Practicing Revealing Module Pattern.  
 
+## Some Links
+
 Project 9 of [Vanilla JS Academy](https://vanillajsacademy.com/)
 
-[View Demo](https://mashablair.github.io/weather-app/)
+[View Demo](https://mashablair.github.io/helper-library/)
